@@ -7,8 +7,8 @@ a.social {
 
   -webkit-background-clip: initial;
   background-clip: initial;
-
-    &[aria-label="tiktok"] {
+  
+  &[aria-label="tiktok"]    {
     --bg-img: url(../assets/icons/tiktok.svg);
 
     &:hover {

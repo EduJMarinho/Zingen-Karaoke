@@ -3,7 +3,6 @@
   --btn-color: var(--bg-color);
   border: 0;
   background-color: transparent;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,11 +14,11 @@
   cursor: pointer;
 
   background: var(--btn-bg-color);
-  color: var(--btn-color);  
+  color: var(--bg-color);  
 }
 
 .btn:hover {
---btn-bg-color: linear-gradient( 90deg, var(--brand-color-secondary)0%, var(--brand-color-primary)100%) ;
+--btn-bg-color: linear-gradient(90deg, var(--brand-color-secondary)0%, var(--brand-color-primary)100%) ;
 --btn-color: var(--surface-color);
 
  -webkit-background-clip: initial;
@@ -43,13 +42,13 @@
  } 
 
  .btn[aria-label] {
-    position: relative;
+  position: relative;
 
     &::before{
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: .09375rem; /* faz aparecer a borda degradê */
+    inset: 0.09375rem; /* faz aparecer a borda degradê */
     background-color: var(--bg-color);
   }
   &::after{
@@ -63,13 +62,11 @@
   }
  }
 
- @media (width >= 80em) {
-  
+ @media (width >=80em) {  
 .btn-sm {
   padding: .75rem 1.5rem;
   font-size: var(--fs-base);
   }
-
  .btn-md {
   padding: 1rem 2rem;
   font-size: 1.125rem;

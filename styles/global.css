@@ -88,6 +88,7 @@ a:hover {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
 
 ul[role="list"] { /* o comando ROLE faz aparecer como lista, evita erro de navegadores para a "bolinha" de listas*/
   list-style: none;
