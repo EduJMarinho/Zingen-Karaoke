@@ -17,9 +17,8 @@
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
-  margin-inline: auto;
-  
-  /* border: solid violet ; */
+  margin-inline: auto; 
+
 }
 
 .desktop-only {
@@ -51,9 +50,8 @@
   display: grid;
 }
 
-  @media(width >= 80em){
-    .container
-     {
+  @media(width >= 80em) {
+    .container {
      --max-width: 80em;
     }
 

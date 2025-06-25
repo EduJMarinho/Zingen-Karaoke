@@ -1,0 +1,8 @@
+#about {
+  background-color: var(--surface-color);
+  justify-content: cover;
+  
+  & .even-columns{
+  gap: 5rem ;
+}
+}
