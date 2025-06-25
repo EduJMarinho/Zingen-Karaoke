@@ -3,6 +3,6 @@
   justify-content: cover;
   
   & .even-columns{
-  gap: 5rem ;
+  gap: 2rem ;
 }
 }
