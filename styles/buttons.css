@@ -48,7 +48,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 0.09375rem; /* faz aparecer a borda degradê */
+    inset: 1px; /* faz aparecer a borda degradê, foi colocado 1px para dar borda mais uniforme, estava o valor em 0.09rem e deu irregularidade na borda */
     background-color: var(--bg-color);
   }
   &::after{
