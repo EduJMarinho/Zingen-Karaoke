@@ -50,6 +50,8 @@ html {
   color: var(--text-color-primary);
 
   overflow-x: hidden;
+
+  scroll-behavior: smooth; /* faz a pagina correr lenta ao buscar um link interno */
 }
 
 body {
