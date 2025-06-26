@@ -54,7 +54,7 @@
   & .premium {
     position: relative;
 
-    & .card {
+       & .card {
      padding-top: 4.25rem;
 
       & > span {
@@ -92,7 +92,7 @@
 
     }
   }
-
+    
   @media (width >= 80em) { /* medidas para desktop*/
     --fs-price: 2.5rem; 
 
