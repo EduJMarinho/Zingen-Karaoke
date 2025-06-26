@@ -19,10 +19,10 @@
     justify-content: center;
     margin-top: 2rem;
   }
-}
+  }
 
-@media (width >= 80em) {
-  #hero {
+  @media (width >= 80em) {
+    #hero {
     background: url(../assets/bg-hero-desktop.svg) no-repeat bottom center/contain; /* por ter varios atributos não podemos colocar backgourn-image */
     padding-bottom: 15rem;
     & img[src*="music"] {

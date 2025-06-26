@@ -1,4 +1,4 @@
-.btn {
+  .btn {
   --btn-bg-color:var(--text-color-primary);
   --btn-color: var(--bg-color);
   border: 0;
@@ -15,23 +15,23 @@
 
   background: var(--btn-bg-color);
   color: var(--bg-color);  
-}
+  }
 
-.btn:hover {
---btn-bg-color: linear-gradient(90deg, var(--brand-color-secondary)0%, var(--brand-color-primary)100%) ;
---btn-color: var(--surface-color);
+  .btn:hover {
+  --btn-bg-color: linear-gradient(90deg, var(--brand-color-secondary)0%, var(--brand-color-primary)100%) ;
+  --btn-color: var(--surface-color);
 
  -webkit-background-clip: initial;
   background-clip: initial;
-   color: var(--btn-color); 
-}
+  color: var(--btn-color); 
+  }
 
-.btn-sm {
+  .btn-sm {
   padding: .5rem 1rem;
   font-size: var(--fs-sm);
   }
 
-.btn-md {
+  .btn-md {
   padding: .75rem 1.5rem;
   font-size: var(--fs-base);
   }
@@ -44,13 +44,14 @@
  .btn[aria-label] {
   position: relative;
 
-    &::before{
+  &::before{
     content: "";
     position: absolute;
     border-radius: inherit;
     inset: 1px; /* faz aparecer a borda degradê, foi colocado 1px para dar borda mais uniforme, estava o valor em 0.09rem e deu irregularidade na borda */
     background-color: var(--bg-color);
   }
+
   &::after{
     content: attr(aria-label); /* ATTR = cria atributo */  
     background: var(--btn-bg-color);
@@ -63,11 +64,11 @@
  }
 
  @media (width >=80em) {  
-.btn-sm {
+  .btn-sm {
   padding: .75rem 1.5rem;
   font-size: var(--fs-base);
   }
- .btn-md {
+  .btn-md {
   padding: 1rem 2rem;
   font-size: 1.125rem;
  } 

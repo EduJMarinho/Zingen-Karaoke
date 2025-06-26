@@ -76,7 +76,7 @@
          color: var(--bg-color);
       }
     }
-    padding: 2px;
+        padding: 2px;
 
     &::before {
       content: "";
@@ -90,11 +90,11 @@
         border-radius: 1.5rem;
         z-index: -1;
 
-    }
-  }
+     }
+     }
     
-  @media (width >= 80em) { /* medidas para desktop*/
-    --fs-price: 2.5rem; 
+    @media (width >= 80em) { /* medidas para desktop*/
+      --fs-price: 2.5rem; 
 
     & header {
       max-width: 50rem;

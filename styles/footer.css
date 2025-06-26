@@ -1,6 +1,6 @@
-footer {
-  color: var(--text-color-secondary);
-  font-weight: var(--fw-md);
+  footer {
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-md);
 
   & .container {
     padding-inline: 3rem;
@@ -36,10 +36,10 @@ footer {
     & span {
       font-size: .875rem;
     }
-  }
+    }
 
-    @media (width >= 80em) {
-      .container {
+      @media (width >= 80em) {
+        .container {
         padding-inline: 0;
         padding-bottom: 2rem;
       }
@@ -54,8 +54,6 @@ footer {
             width: 14rem;
           }
         }
-      }
-      
-    }
-  
-}
+      }      
+    }  
+  }
