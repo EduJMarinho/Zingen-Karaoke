@@ -1,4 +1,4 @@
-# 🎤 Zingen Karaoke
+# 🎤 Zingen Karaoke - By Dev Edu Marinho
 
 Uma landing page interativa e responsiva criada para oferecer uma experiência simples e estilosa de karaokê online. 
 Ideal para quem ama cantar e quer se divertir com praticidade!
