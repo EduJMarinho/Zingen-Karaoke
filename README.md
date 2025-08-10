@@ -31,3 +31,8 @@ O Zingen Karaoke apresenta:
 ---
 
 
+🧠 Analisar 📚 Aprender ❌ Errar  
+    🔁 Refatorar  🛠️ Construirr  
+    ->   ->   ->   ->   ->   ->   ->    
+→ Esse é o caminho do Dev. — Edu Marinho
+
